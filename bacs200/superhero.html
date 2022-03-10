@@ -7,47 +7,59 @@
   <p>Superheroes</p>
 </body>
   <table>
-  <div class="divTable blueTable">
-<div class="divTableHeading">
-<div class="divTableRow">
-<div class="divTableHead">&nbsp;Name</div>
-<div class="divTableHead">Alias&nbsp;</div>
-<div class="divTableHead">Looks&nbsp;</div>
-<div class="divTableHead">Superpower&nbsp;</div>
-<div class="divTableHead">&nbsp;Weakness</div>
-</div>
-</div>
-<div class="divTableBody">
-<div class="divTableRow">
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-</div>
-<div class="divTableRow">
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-</div>
-<div class="divTableRow">
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-</div>
-<div class="divTableRow">
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-<div class="divTableCell">&nbsp;</div>
-</div>
-</div>
-</div>
+  div.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #AC92EE;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  border: 1px solid #5B4BAA;
+  padding: 3px 2px;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 13px;
+  color: #F8F8FF;
+}
+.divTable.blueTable .divTableRow:nth-child(even) {
+  background: #AB80F5;
+}
+.divTable.blueTable .divTableHeading {
+  background: #3723A4;
+}
+.divTable.blueTable .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FBFAFF;
+}
+.blueTable .tableFootStyle {
+  font-size: 14px;
+}
+.blueTable .tableFootStyle .links {
+	 text-align: right;
+}
+.blueTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.blueTable.outerTableFooter {
+  border-top: none;
+}
+.blueTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
   </table>
   <meta lang-"en-US">
 </html>
