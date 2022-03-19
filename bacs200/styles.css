@@ -6,7 +6,7 @@ header {
   font-size: 30px;
 body {
   font-family: sans-serif;
-	@page {
+	p {
   margin-top: 200px;
   margin-bottom: 3cm;
   margin-right: 3cm;
