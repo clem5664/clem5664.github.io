@@ -1,3 +1,6 @@
+body {
+  font-family: sans-serif;
+}
 table.redTable {
   border: 2px solid #A40808;
   background-color: #EEE7DB;
