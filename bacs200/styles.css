@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-	p {
+	@page {
   margin-top: 200px;
   margin-bottom: 3cm;
   margin-right: 3cm;
