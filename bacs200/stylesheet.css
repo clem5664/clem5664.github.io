@@ -18,22 +18,9 @@ table.redTable tbody td {
 table.redTable tr:nth-child(even) {
   background: #F5C8BF;
 }
-table.redTable thead {
-  background: #A40808;
-}
-table.redTable thead th {
-  font-size: 19px;
-  font-weight: bold;
-  color: #FFFFFF;
-  text-align: center;
-  border-left: 2px solid #A40808;
-}
-table.redTable thead th:first-child {
-  border-left: none;
-}
-
-table.redTable tfoot {
+table.redTable tfoot td {
   font-size: 13px;
+}
   font-weight: bold;
   color: #FFFFFF;
   background: #A40808;
