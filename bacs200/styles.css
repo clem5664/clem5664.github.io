@@ -4,13 +4,11 @@ header {
   background: #1abc9c;
   font-size: 30px;
 main {
-  font-family: sans-serif;
-	margin-left: 40px;
-	margin-right: 40pc;
+  margin-left: 40px;
+	margin-right: 40px;
 	text-align: center;
 	background: #1abc9c;
 footer {
-  font-family: sans-serif;
 	margin: 20px;
 	text-align: center;
 	background: #1abc9c;
