@@ -5,12 +5,10 @@ header {
   font-size: 30px;
 main {
   font-family: sans-serif;
-	margin: 20px;
+	margin-left: 40px;
+	margin-right: 40pc;
 	text-align: center;
 	background: #1abc9c;
-	font-size: 35px;
-	
-}
 footer {
   font-family: sans-serif;
 	margin: 20px;
