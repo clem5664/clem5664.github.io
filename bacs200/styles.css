@@ -5,8 +5,11 @@ header {
   font-size: 30px;
 main {
   font-family: sans-serif;
-	p {
-  margin: 3cm;
+	margin: 20px;
+	text-align: center;
+	background: #1abc9c;
+	font-size: 25px
+	
 }
 }
 table {
