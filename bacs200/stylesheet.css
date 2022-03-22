@@ -4,6 +4,9 @@
 	 background-color: #E6FFEA;
 	margin: 0px;
 }
+body {
+	font-family: "Lucida Console";
+}
 ul {
 	list-style-type: none;
 }
